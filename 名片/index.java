@@ -1,4 +1,4 @@
- window.alert("将滑鼠停留在头像上 点亮马茗燕这颗火苗");
+window.alert("将滑鼠停留在头像上 点亮马茗燕这颗火苗");
 
 // var comment=document.getElementById("comment");
 // var btn=document.getElementById("btn");
