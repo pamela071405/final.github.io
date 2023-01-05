@@ -1,0 +1,204 @@
+@font-face {
+    font-family: getcoffee;
+    src: url(字体/getcoffee\ regular.ttf);
+}
+
+@font-face {
+    font-family:HanyiSentyPine ;
+    src: url(字体/HanyiSentyPine.ttf);
+}
+body{
+    font-family:"Roboto";
+    display:flex;
+    flex:1 1 0px;
+
+    align-items:center; /*副軸對齊*/
+    justify-content:center; /*主軸對齊*/
+    background-image: url("背景.jpg");
+    background-size: cover ;
+    /*background-repeat: no-repeat;*/
+    
+}
+
+
+.comment_area{
+    display:flex;
+    margin:5px;
+}
+#comment_areatext{
+    color:white;
+   /* -webkit-text-stroke: 0.05px rgb(42, 157, 165); */
+   font-family: HanyiSentyPine;
+   font-size: 50px;
+   margin:0px;
+   text-align: right;
+}
+
+.main-content{
+   position:relative;
+    text-align:center;
+    box-shadow: 0px 0 10px black;
+}
+
+ .top-section img{
+  border-radius: 50%;
+  width:180px;
+  height:auto;
+
+  filter:brightness(70%);
+  top:80%;
+} 
+.top-section img:hover{
+    filter:brightness(100%);
+    z-index:1;
+    transition:.3s ease-out;
+}
+.top-section{
+    height: 326px;
+    width:361.68px;
+    background-color: rgb(1, 72, 72);
+    opacity: 1; 
+    color: aliceblue;
+    position:relative;
+    
+}
+.top-section p{
+    margin:10px;
+    font-size: 20px;
+    position:relative;
+    top: 20px;
+}
+.top-section .name{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top:-8px;
+    margin-bottom: 10px;
+}
+
+.middle-section, .bottom-section{
+    background-color: aliceblue;
+
+}
+.middle-section{
+    position: relative;
+}
+
+.social{
+    position: absolute;
+    width:100%;
+    top:-32px;
+}
+.social i{
+    width:30px;
+    height:30px; 
+     font-size: 20px; 
+     color:white;
+     background-color: rgb(5, 27, 46);
+    border-radius: 50%; 
+    line-height: 33px;
+    margin:15px;
+}
+
+.bottom-section{
+    padding: 10px 0;
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.enter-page{
+    background-color: rgb(169, 215, 203);
+    color:bisque;
+    margin:20px 0 0 0;
+    padding:3px;
+    border-radius: 28px;
+}
+a:link{
+    color:rgb(81, 44, 5);
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(81, 44, 5);
+}
+
+.enter-page:hover{
+    background-color: antiquewhite;
+}
+
+.bottom-section:hover{
+    background-color: antiquewhite;
+}
+
+.email, .mobile{
+    font-family:getcoffee ;
+}
+.name, .school,.enter-page{
+    font-family:HanyiSentyPine;
+    font-size:30px;
+   
+}
+
+#box{
+    width: 359px;
+    height: 200px;
+    border:1px solid white;
+    color: aliceblue;
+    background-color: rgba(150, 150, 150, 0.66);
+}
+#box_content{
+    width: 359px;
+    height: 200px;
+}
+
+#text_name{
+    width:108px;
+}
+#text{
+    width:200px;
+}
+
+.faces i{
+    /* display:flex;
+    flex-direction:row; */
+    top:-50px;
+
+    width:30px;
+    height:30px; 
+     font-size: 20px; 
+     color:white;
+    border-radius: 50%; 
+    line-height: 33px;
+
+    margin:5px;
+}
+
+#feeling{
+    position:relative;
+    color:aliceblue;
+    left:0;
+}
+#feelingtext{
+    color:white;
+    background-color: rgba(9, 66, 54, 0.61);
+    box-shadow: 0px 10px 20px rgba(9, 66, 54, 0.61);
+    font-family: HanyiSentyPine;
+
+    font-size: 30px;
+    
+    text-align: left;
+
+    margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
