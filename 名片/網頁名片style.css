@@ -131,6 +131,7 @@ a:visited{
 
 .email, .mobile{
     font-family:getcoffee ;
+    color:white;
 }
 .name, .school,.enter-page{
     font-family:HanyiSentyPine;
